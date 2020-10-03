@@ -75,3 +75,4 @@ print('Месяц ', t[m],  'соответствует времени года:
 # for int(x) in words:
 #    words[int(x)]=words[int(x)].splice[0,11]
 # for num in enumerate(words):                              Дальше по плану нумерация, но он вообще не нумерует
+#end
