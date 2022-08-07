@@ -27,9 +27,10 @@ edge = 0.593 # оптимальный подобранный мной порог
 img_bw = np.mean(img, axis=2)
 img_bin = (img_bw > edge).astype(np.uint8)
 
-comprehansion=plt.figure(figsize=(10, 7))
-ax1=img
-ax2=img_bin
-b4=comprehansion.add_subplot(1,2,1)
-after=comprehansion.add_subplot(1, 2, 2)
+comprehansion=plt.figure(figsize=(15, 10))
+comprehansion.add_subplot(1,2,1)
+plt.imshow(img)
+comprehansion.add_subplot(1, 2, 2)
+plt.imshow(img_bin)
+axes="off"
 plt.show()
